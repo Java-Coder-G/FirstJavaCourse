@@ -6,6 +6,7 @@ public class Main {
 		System.out.println("Hello Java world");
 		MultiplicationTable table = new MultiplicationTable();
 		table.print();
+		table.print(7);
 	}
 
 }

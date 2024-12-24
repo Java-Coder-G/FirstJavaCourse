@@ -8,6 +8,15 @@ public class MultiplicationTable {
 			System.out.printf(" % d x %d = %d",  5, i, 5*i).println();
 		}
 		
+		
 	}
+	void print(int table) {
+		System.out.printf("The multiplication table of %d is:", table).println();
+		for (int i = 1 ; i<11; i++) {
+			System.out.printf("%d x %d = %d", table, i, table*i).println();
+		}
+		
+	}
+	
 
 }
