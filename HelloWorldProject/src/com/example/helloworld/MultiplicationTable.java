@@ -17,6 +17,13 @@ public class MultiplicationTable {
 		}
 		
 	}
+	void print(int table, int from, int to) {
+		System.out.printf("Printing the table of %d", table).println();
+		for (int i = from; i <= to ; i++) {
+			System.out.printf( " %d x %d = %d", table, i, table*i).println();
+		}
+		
+	}
 	
 
 }
