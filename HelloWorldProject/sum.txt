@@ -1,0 +1,15 @@
+int sumOfTwoNumbers( int firstNumber, int secondNumber){
+    int sum = firstNumber + secondNumber;
+    return sum;
+}
+sumOfTwoNumbers(1, 34)
+int sumOfThreeNumbers(int a, int b, int c){
+    int sum = a+ b+c;
+    return sum;
+}
+int sum = sumOfThreeNumbers(1, 45, 54);
+int remainingAngleOfTriangle(int angle1, int angle2){
+    int remainingAngle = 180 -(angle1 + angle2);
+    return remainingAngle;
+}
+remainingAngleOfTriangle(20, 34);
